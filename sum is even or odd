@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class EvenOdd {
+
+    public static void main(String[] args) {
+
+        Scanner reader = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        int a = reader.nextInt();
+        System.out.println("Enter second number: ");
+        int b = reader.nextInt();
+        int sum = a+b;
+
+        if(sum % 2 == 0)
+            System.out.println(sum + " is even");
+        else
+            System.out.println(sum + " is odd");
+    }
+}
